@@ -38,7 +38,7 @@ The goal was to design a realistic relational schema and write analytical SQL qu
 10. **City-wise revenue**  total revenue grouped by customer city (JOIN + aggregation)
 
 ### Key Insights
- Cancelled orders are excluded from all revenue and performance metrics including a cancelled order's data would overstate revenue and distort rider delivery-time averages.
+ Cancelled orders are excluded from all revenue and performance metrics including a cancelled order's data would overstate revenue and distort rider delivery time averages.
  A rider's average delivery time changed meaningfully once cancelled orders were removed from the calculation, showing how including incomplete orders can misrepresent real performance.
  Restaurant ratings calculated from actual customer reviews (`ratings` table) differ slightly from the static rating stored on the restaurant record  suggesting the static field should be refreshed periodically from live review data.
 

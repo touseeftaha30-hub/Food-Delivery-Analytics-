@@ -20,7 +20,7 @@ The goal was to design a realistic relational schema and write analytical SQL qu
 | `restaurants` | Partner ,restaurants, cuisine type, city, rating |
 | `riders` | Delivery riders |
 | `menu_items` | Dishes offered per restaurant |
-| `orders` | Order transactions status, delivery time, total amount |
+| `orders` | Order and delivery status, delivery time, total amount |
 | `order_items` | Line items within each order (many to many bridge) |
 | `ratings` | Customer feedback per order (restaurant + rider rating) |
 
